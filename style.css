@@ -1,4 +1,7 @@
-bg-image {
+body {
+  background-color: #000;
+}
+.bg-image {
   background-image: url('https://cdn.e-z.host/e-zimagehosting/d75c90cd-9bbb-4b19-b2c7-c65b5fbdf1e1/f2acd8b7.gif');
 
   filter: blur(6px);
