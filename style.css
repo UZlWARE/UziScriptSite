@@ -109,6 +109,12 @@
   -webkit-transform: translateY(0) scale(1,1);
           transform: translateY(0) scale(1,1);
 }
+.gradient-border {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
 .gradient-border:after {
   content: '';
   position: absolute;
@@ -135,3 +141,5 @@
 		background-position: 0% 50%;
 	}
 }
+
+
