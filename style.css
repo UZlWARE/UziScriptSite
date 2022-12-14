@@ -2,8 +2,14 @@
   padding-bottom: 5px;
   font-size: 3.0rem;
   color: #6f27f8cc;
+  
 }
-
+.text1 {
+  padding-bottom: 5px;
+  font-size: 3.0rem;
+  color: white;
+  text-shadow: 2px 2px 5px #6f27f8cc;
+}
 .body {
   background-color: #000;
 }
