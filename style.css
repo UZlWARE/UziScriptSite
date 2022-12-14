@@ -1,0 +1,24 @@
+        .box-wrapper {
+            height: 95vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+          background-color:rgba(55, 55, 55, 1);
+        }
+ 
+        .middle-row {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+        }
+ 
+        .middle-row div {
+            flex-grow: 1;
+            margin: 0 8px;
+            border: solid 1px red;
+        }
+ 
+        .middle-row div+div {
+            margin-top: 8px
+        }
