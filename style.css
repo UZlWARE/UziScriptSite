@@ -135,3 +135,15 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
   }
+#eny {
+  opacity: 30%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  top: 20em;
+  vertical-align: middle;
+  width: 100%;
+  font-family: 'Fira Mono', monospace;
+  font-size: 30px;
+}
