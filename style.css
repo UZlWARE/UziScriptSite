@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&display=swap');
+
 body {
   background-color: #000;
 }
+
+p,
+.maintext,
+.subtext {
+  color: #fff;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
 .bg-image {
   background-image: url('https://cdn.e-z.host/e-zimagehosting/d75c90cd-9bbb-4b19-b2c7-c65b5fbdf1e1/f2acd8b7.gif');
 
@@ -34,4 +44,57 @@ body {
   max-width: 580px;
   
   border-radius: 5px;
+}
+
+.header {
+  position: absolute;
+  top: 15%;
+
+  text-align: center;
+  width: 100%;
+
+  padding: 0%;
+  margin: 0%;
+}
+
+.maintext {
+  font-size: 2.5rem;
+  padding: 0%;
+  margin: 0%;
+  padding-bottom: 5px;
+}
+
+.subtext {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+#subtext {
+  display: inline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 15%;
+
+  width: 100%;
+
+  /* center all images inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-logo {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  transition: transform 0.2s;
+
+  width: 40px;
+  height: 40px;
+}
+
+.social-logo:hover {
+  transform: scale(1.5);
 }
