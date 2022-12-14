@@ -22,3 +22,7 @@
         .middle-row div+div {
             margin-top: 8px
         }
+      #box1 {
+            padding: 8px;
+            border: solid 1px blue
+        }
