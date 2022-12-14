@@ -1,3 +1,9 @@
+p,
+.text {
+  color: #fff;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
 .body {
   background-color: #000;
 }
