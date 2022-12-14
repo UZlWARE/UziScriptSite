@@ -1,7 +1,7 @@
-p,
 .text {
-  color: #fff;
-  font-family: 'Encode Sans Expanded', sans-serif;
+  padding-bottom: 5px;
+  font-size: 3.0rem;
+  color: #6f27f8cc;
 }
 
 .body {
