@@ -1,3 +1,21 @@
 .body {
   background-color: #000;
 }
+.box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  
+  backdrop-filter: blur(10px);
+
+  width: 90%;
+
+  height: 35%;
+  max-width: 580px;
+  
+  border-radius: 5px;
+}
