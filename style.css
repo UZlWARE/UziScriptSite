@@ -135,13 +135,4 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
   }
-.eny {
-  opacity: 10%;
-  position: relative;
-  text-align: center;
-  align-items: center;
-  top: 20em;
-  vertical-align: middle;
-  width: 100%;
-  font-size: 30px;
-}
+
